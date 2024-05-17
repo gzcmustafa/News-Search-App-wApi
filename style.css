@@ -14,8 +14,9 @@ body {
 
 /* GLOBAL CSS */
 .obj-width {
-    max-width: 1200px;
+    max-width: 80vw;
     margin: auto;
+    
 }
 
 nav {
@@ -57,7 +58,7 @@ nav {
 }
 
 .blog-card {
-    width: 280px;
+    max-width: 280px;
     border: 1px solid #2d4c50;
     border-radius: 10px;
     cursor: pointer;
@@ -80,6 +81,7 @@ nav {
 .blog-card p {
     font-size: 1.2rem;
     padding-top: 0.7rem;
+    
 }
 
 .blog-card img {
